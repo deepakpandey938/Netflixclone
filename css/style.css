@@ -1,0 +1,510 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", "sen-serif";
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+.main-first-view {
+  background-image: url(../img/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 88vh;
+  width: 100%;
+  overflow: hidden;
+}
+.btn-watch-header-text {
+  color: #ccc;
+}
+
+input:focus::-webkit-input-placeholder {
+  font-size: 0.9em;
+  position: relative;
+  color: #e9dfdf;
+  top: -15px;
+  transition: 0.2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+  transition: 0.4s ease-in;
+  color: #e9dfdf;
+  font-size: 1.1em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  height: 50px;
+  padding-bottom: 0px;
+  transition: 0.2s ease-in;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 50px;
+  transition: 0.2s ease-in;
+}
+
+#emailInput {
+  width: 49%;
+  padding: 1.9rem;
+  border: 1px solid rgb(160, 160, 160);
+  font-size: 1.5rem;
+  background-color: rgba(36, 36, 37, 0.5);
+}
+.btn-get-started {
+  width: 22%;
+  cursor: pointer;
+  padding: 1.2rem;
+  color: white;
+  background-color: rgb(226, 10, 10);
+  border: none;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.btn-get-started:hover {
+  background-color: rgb(195, 7, 7);
+}
+#emailInput:focus {
+  border: 2px solid white;
+}
+.btn-get-started {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn-watch-header-text h1 {
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 900;
+}
+.input-box-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+.btn-watch-header-text p {
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  color: white;
+  font-weight: 300;
+  font-size: 2.3rem;
+}
+.get-started-watch-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto auto;
+  height: 90vh;
+  background: linear-gradient(rgba(9, 9, 9, 0.5), rgba(20, 19, 19, 0.5));
+}
+
+.logo-for-netflix {
+  margin-left: 12rem;
+  margin-top: 1.5rem;
+}
+.navbar-for-netflix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(black 50%, rgba(16, 16, 16, 0.5));
+}
+.logo-for-netflix img {
+  width: 18rem;
+  height: 7.5rem;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 18rem;
+}
+select {
+  border: 2px solid rgb(90, 88, 88);
+  border-radius: 4px;
+  background-color: #f6f6f6;
+  padding: 0.6rem 1.7rem;
+  background-color: rgba(79, 68, 68, 0.5);
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+select:focus {
+  border: 2px solid white;
+}
+
+option {
+  background-color: white;
+  color: black;
+}
+.btn-sign-in {
+  background-color: rgb(226, 10, 10);
+  color: white;
+  font-size: 1.7rem;
+  padding: 0.6rem 1.7rem;
+  border: 2rem;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+.btn-sign-in:hover {
+  transition: 0.2s ease-in-out;
+  background-color: rgb(195, 7, 7);
+}
+
+.gray-clr-conatiner {
+  height: 0.7rem;
+  background-color: #333;
+}
+
+.device-of-tv {
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  width: 38%;
+  padding: 2rem 1rem;
+  margin: auto auto;
+
+  color: white;
+  margin-left: 18rem;
+}
+
+.title-of-moview {
+  font-size: 5rem;
+}
+.details-of-movies {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+}
+.container-video {
+  padding-right: 9rem;
+}
+
+.container-of-footer {
+  width: 100%;
+  height: 55vh;
+  background-color: black;
+  padding: 8rem 25rem;
+}
+.title-box-detail {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.box-first-list li {
+  margin: 1.9rem;
+  font-size: 1.5rem;
+  color: white;
+  list-style-type: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box-second-list li {
+  margin: 1.9rem;
+  font-size: 1.5rem;
+  color: white;
+  list-style-type: none;
+  text-decoration: underline;
+  font-weight: 100;
+  cursor: pointer;
+}
+.box-wrapper-container-first {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-wrapper-container-first {
+  display: flex;
+  flex-direction: row;
+  gap: 15rem;
+}
+
+.warraper-cover-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 62em) {
+  .container-of-footer {
+    height: 80vh;
+    background-color: black;
+    padding: 5rem 5rem;
+  }
+  .title-box-detail {
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  .box-first-list li {
+    margin: 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .box-second-list li {
+    margin: 1.2rem;
+    font-size: 1.6rem;
+  }
+  .box-wrapper-container-first {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box-wrapper-container-first {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+  }
+
+  .for-components-of-box1 {
+    margin-right: 12rem;
+  }
+  .warraper-cover-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #li-components-footer {
+    flex-direction: column-reverse;
+  }
+  .box-option {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .main-first-view {
+    height: 75vh;
+  }
+
+  .logo-for-netflix {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .logo-for-netflix img {
+    width: 9rem;
+    height: 3.5rem;
+  }
+  .search-bar {
+    margin-right: 1rem;
+  }
+  select {
+    border: 1px solid rgb(54, 54, 54);
+    padding: 0.2rem 0.2rem;
+    font-size: 1rem;
+  }
+  select:focus {
+    border: 2px solid white;
+  }
+
+  option {
+    background-color: white;
+    color: black;
+  }
+  .btn-sign-in {
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem;
+    margin-left: 0.4rem;
+  }
+
+  #emailInput {
+    width: 43%;
+    padding: 1rem;
+    border: 1px solid rgb(160, 160, 160);
+    font-size: 1.5rem;
+    background-color: rgba(36, 36, 37, 0.5);
+  }
+  .btn-get-started {
+    width: 30%;
+    cursor: pointer;
+    padding: 0.1rem;
+    color: white;
+    background-color: rgb(226, 10, 10);
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+
+  .btn-watch-header-text h1 {
+    margin: 0.4rem 0.9rem;
+    font-size: 3rem;
+  }
+  .input-box-container {
+    margin-top: 2rem;
+  }
+  .btn-watch-header-text p {
+    margin: 0.4rem 0.9rem;
+    font-size: 1.5rem;
+  }
+
+  /* .container-video img{
+    width: 80%;
+    height: 40vh;
+    margin-bottom: 45rem;
+    
+    } */
+
+  .device-of-tv {
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-container {
+    width: 100%;
+    margin: auto auto;
+  }
+
+  .title-of-moview {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .details-of-movies {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .container-video {
+    padding: 0px;
+    margin: auto auto;
+  }
+
+  .container-video img {
+    width: 90%;
+
+    margin: 1px 1.5rem;
+  }
+  #mobile-device {
+    flex-direction: column-reverse;
+  }
+}
+
+
+
+
+.container-minnimizer-box{
+    background-color: black;
+    width: 100%;
+    
+    height: 115vh;
+}
+.header-of-minimizer-box{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 3rem;
+}
+
+.accordion {
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .accordion-item {
+      
+      margin-bottom: 5px;
+      border-radius: 5px;
+  }
+  .header-font-text{
+      margin-left: 2rem;
+      font-size: 2.5rem;
+      font-weight: 100;
+  }
+  
+  .accordion-header {
+      height: 9rem;
+      font-size: 2rem;
+     cursor: pointer;
+    background-color: #484747;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-header:hover{
+      background-color: #373535;
+      transition: transform 0.3s ease;
+  }
+  .accordion-content p{
+      margin: 1.6rem;
+  }
+  
+  .accordion-header .icon {
+    font-size: 5rem;
+    margin-right: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-content {
+  background-color: #484747;
+  font-size: 2rem;
+  border-top: 2px solid black;
+    padding: 10px;
+    display: none;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  
+@media (max-width: 62em) {
+  .accordion {
+    max-width: 95%;
+  }
+
+  .header-font-text{
+      margin-left: 1.5rem;
+      font-size: 2rem;
+  }
+  
+  .accordion-header {
+      height: 6rem;
+      font-size: 2rem;
+     
+    background-color: #484747;
+  }
+  .accordion-content p{
+      margin: 1rem;
+  }
+  
+  .accordion-header .icon {
+    font-size: 4rem;
+    margin-right: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-content {
+  background-color: #484747;
+  font-size: 1.6rem;
+  border-top: 2px solid black;
+  }
+
+
+
+
+
+}
